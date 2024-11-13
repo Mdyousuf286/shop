@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+ nav, li {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+ }
+ #home {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+ }
+button {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    border-style: none;
+}
+#products {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+    text-decoration: underline;
+}
+ img{
+    padding: 0px 100px 0px 100px;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+   
+    
+ }
+ img:hover{
+    transition: 2000ms;
+    size: 200px;
+    cursor: pointer;
+ }
+ #contact {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 400px;
+   top: 100%;
+   
+ }
+
+
+.form, label{
+   text-align: center;
+   justify-content: center;
+   background-color: aqua;
+   border-radius: 30px;
+   height: 230px;
+   width: 600px;
+   
+}
+
+.form, input{
+   border-radius: 10px;
+}
+.form > button {
+   height: 30px;
+   margin-top: 10px;
+   background-color: beige;
+}
